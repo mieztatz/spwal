@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{2}
+\begin{thebibliography}{6}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,32 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Cisco~Systems}{Cisco~Systems}{2017}]%
+        {TheZetta68:online}
+\bibfield{author}{\bibinfo{person}{Inc. Cisco~Systems}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{The Zettabyte Era: Trends and Analysis - Cisco}.
+\newblock   (\bibinfo{date}{07} \bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/vni-hyperconnectivity-wp.html#_Toc484556821}}
+\newblock
+\shownote{(Accessed on 11/05/2017).}
+
+
+\bibitem[\protect\citeauthoryear{Dumitriu, Knightly, Kuzmanovic, Stoica, and
+  Zwaenepoel}{Dumitriu et~al\mbox{.}}{2005}]%
+        {Dumitriu:2005:DoS}
+\bibfield{author}{\bibinfo{person}{D. Dumitriu}, \bibinfo{person}{E. Knightly},
+  \bibinfo{person}{A. Kuzmanovic}, \bibinfo{person}{I. Stoica}, {and}
+  \bibinfo{person}{W. Zwaenepoel}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Denial-of-Service Resilience in Peer-to-Peer File
+  Sharing Systems}, Vol.~\bibinfo{volume}{33}. \bibinfo{publisher}{ACM}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1145/1071690.1064218}}
+
+
 \bibitem[\protect\citeauthoryear{Jalali, Ayre, Vishwanath, Hinton, Alpcan, and
   Tucker}{Jalali et~al\mbox{.}}{2014}]%
         {DBLP:journals/sigmetrics/JalaliAVHAT14}
@@ -47,9 +73,36 @@
 \newblock \showarticletitle{Energy Consumption of Content Distribution from
   Nano Data Centers versus Centralized Data Centers}.
 \newblock \bibinfo{journal}{{\em {SIGMETRICS} Performance Evaluation Review\/}}
-  \bibinfo{volume}{42}, \bibinfo{number}{3} (\bibinfo{year}{2014}),
-  \bibinfo{pages}{49--54}.
+   \bibinfo{volume}{42} (\bibinfo{year}{2014}), \bibinfo{pages}{49--54}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Laoutaris, Rodriguez, and Massoulie}{Laoutaris
+  et~al\mbox{.}}{2008}]%
+        {Laoutaris:2008:EEC:1341431.1341442}
+\bibfield{author}{\bibinfo{person}{Nikolaos Laoutaris}, \bibinfo{person}{Pablo
+  Rodriguez}, {and} \bibinfo{person}{Laurent Massoulie}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{ECHOS: Edge Capacity Hosting Overlays of Nano Data
+  Centers}.
+\newblock \bibinfo{journal}{{\em SIGCOMM Comput. Commun. Rev.\/}}
+  \bibinfo{volume}{38} (\bibinfo{date}{Jan.} \bibinfo{year}{2008}),
+  \bibinfo{pages}{51--54}.
+\newblock
+\showISSN{0146-4833}
+\showDOI{%
+\url{https://doi.org/10.1145/1341431.1341442}}
+
+
+\bibitem[\protect\citeauthoryear{Mhapasekar}{Mhapasekar}{2011}]%
+        {Mhapasekar:2011:anonymity}
+\bibfield{author}{\bibinfo{person}{Darshan Mhapasekar}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Accomplishing anonymity in peer to peer network}.
+  \bibinfo{publisher}{ACM}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1145/1947940.1948055}}
 
 
 \bibitem[\protect\citeauthoryear{Valancius, Laoutaris, Massouli{\'{e}}, Diot,

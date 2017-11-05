@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  5 NOV 2017 18:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  5 NOV 2017 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,89 +922,86 @@ tim
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 147.
+(Font)              scaled to size 20.74pt on input line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <20.74> not
  available
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 147.
+ut line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 147.
+(Font)              scaled to size 20.74pt on input line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <10> not av
 ailable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 147.
+ut line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 86.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 86.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 147.
+(Font)              scaled to size 7.3pt on input line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 147.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Try loading font information for TS1+LinuxBiolinumT-TLF on 
-input line 147.
+input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.fd
 File: TS1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/L
 inuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 147.
+(Font)              scaled to size 8.0pt on input line 86.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 147.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
 
 [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <9> not ava
 ilable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 147.
+ut line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
+(Font)              scaled to size 9.0pt on input line 86.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 147.
+(Font)              scaled to size 9.0pt on input line 86.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
+(Font)              scaled to size 9.0pt on input line 86.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--183
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
 
  []
 
 [2.2]
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 131.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3]
 (./sample-sigchi-a.bbl [4.4]) [5.5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (./sample-sigchi-a.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `sample-sigchi-a.out' has not changed.
-(rerunfilecheck)             Checksum: E116CABEF0F2BD320DE96D3DA2ACA654;819.
+(rerunfilecheck)             Checksum: 3C23B8172439CBAC0BD5F1A83A687C11;951.
  ) 
 Here is how much of TeX's memory you used:
- 17441 strings out of 493304
- 261005 string characters out of 6139872
- 372486 words of memory out of 5000000
- 20303 multiletter control sequences out of 15000+600000
- 92663 words of font info for 159 fonts, out of 8000000 for 9000
+ 17467 strings out of 493304
+ 261543 string characters out of 6139872
+ 375738 words of memory out of 5000000
+ 20299 multiletter control sequences out of 15000+600000
+ 94335 words of font info for 175 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 60i,12n,94p,847b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,1112b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.14} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1023,15 +1020,18 @@ pdfTeX warning (dest): name{section*.6} has been referenced but does not exist,
 pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
  replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}</usr/share/
+pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/share/
 texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb>
-Output written on sample-sigchi-a.pdf (5 pages, 159731 bytes).
+Output written on sample-sigchi-a.pdf (5 pages, 169851 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 35409 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 34905 words of extra memory for PDF output out of 35830 (max. 10000000)
 
