@@ -37,7 +37,7 @@
   \institution{Ludwig Maximilian University of Munich}
   \city{Munich} 
   \country{Germany}}
-\email{katrinkolb@web.de}
+\email{Katrin.Kolb@campus.lmu.de}
 
 \author{Katharina Rupp}
 \affiliation{%
@@ -116,6 +116,15 @@ In this paper we identify the challenges currently preventing nano data centers 
 The global IP traffic is continually increasing. An analysis by Cisco shows, that global IP traffic will grow at a Compound Annual Growth Rate (CAGR) of 24 percent from 2016 to 2021 \cite{TheZetta68:online}, of which 71 percent will be delivered by Content Delivery Networks (CDNs) \cite{TheZetta68:online}. To deliver these amounts of data, CDNs make use of large monolithic data centers. These data centers are energy-inefficient, lack scalability and are difficult to deploy. \cite{DBLP:conf/conext/ValanciusLMDR09} A solution mitigating these problems has been proposed by Valancius et al. in 2009 \cite{DBLP:conf/conext/ValanciusLMDR09} in the form of a distributed nano data center infrastructure. However, to date monolithic data centers are still the prevalent solution. It is therefore necessary to identify the reasons why nano data centers are not being actively used yet to enable insights into which challenges have still to be overcome to ensure a transition from monolithic data centers to distributed nano data centers as soon as possible.
 
 \section{Introduction} % Katrin
+Energy consumption and energy efficiency is a big topic in the modern world. Politicians try to make the production of energy more ecoconscious with renewable energy and people buy refrigerators with energy efficiency category A+++. \\
+While regulating these objectives one of the most energy consuming sectors grows faster and faster. Smartphones, Smartwatches and cars with internet connection are parts of the standard equipment of a modern human. So, the number of web-enabled devices will grow to a number of more than three times the global population by 2021 \cite{TheZetta68:online}. Given the fact that this will consume additional energy, the actual big energy consumer is the internet itself. With a growth rate of 24 percent per year from 2016 to 2021 the IP traffic will increase heavily \cite{TheZetta68:online}. Therefore, large monolithic data centers are used to provide these amounts of data. \\
+These data centers need a high amount of energy just for cooling the server system. About 50 percent of the energy of an average data center is spent on heat dissipation \cite{DBLP:conf/conext/ValanciusLMDR09}. This shows that data centers are energy-inefficient and furthermore there is a lack of scalability plus a difficult deployment \cite{DBLP:conf/conext/ValanciusLMDR09}. \\
+Due to the fact that internet usage will continue to be an important part of society, economy and industry, there are several approaches to solve these problems and make the internet ``greener''. For example, Valancius et al. \cite{DBLP:conf/conext/ValanciusLMDR09} proposed a distributed computing platform and ECHOS \cite{Laoutaris:2008:EEC:1341431.1341442} is a nano data center and innovative solution to data hosting and delivery. The common feature of these solutions and new forms of data centers is that they are not used in practice. \\
+Nevertheless, these approaches are innovative and have several advantages. There is also the opportunity to reduce energy consumption with these solutions and to change the state of the art of data provisioning. So, it is necessary to identify the challenges towards a distributed nano data center and its infrastructure. \\
+Our goals are to identify these challenges as well as problems and requirements towards the development of nano data centers by studying and comparing the existing researches. With this knowledge it will be easier to focus on the problems and foster the development and introduction of these systems. \\
+This proposal is organized as follows. First, we review related research works. In section ``justification'', we support why our work is necessary. In section ``evaluation'', we describe our reference points for the evaluation of our outcomes. This is followed by a research plan with the milestones, which we want to achieve. Finally, we analyze the potential risks and reasons for a possible failure.
+ \\
+
 
 \section{Related Work} % Melanie, Katharina
 Some concepts in the field of nano data centers have been developed. For example, Valancious et al. \cite{DBLP:conf/conext/ValanciusLMDR09} introduced NaDa. NaDa is a distributed computing platform, which uses a managed peer-to-peer model for its infrastructure. They furthermore evaluated their system in terms of energy savings and thus found that NaDa saves minimum 20\% to 30\% in comparison to traditional data centers. \\
