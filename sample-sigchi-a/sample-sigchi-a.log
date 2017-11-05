@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  5 NOV 2017 16:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  5 NOV 2017 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,23 +984,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--183
 
  []
 
-[2.2] (./sample-sigchi-a.bbl) [3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+[2.2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3.3]
+(./sample-sigchi-a.bbl [4.4]) [5.5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (./sample-sigchi-a.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `sample-sigchi-a.out' has not changed.
 (rerunfilecheck)             Checksum: E116CABEF0F2BD320DE96D3DA2ACA654;819.
  ) 
 Here is how much of TeX's memory you used:
- 17439 strings out of 493304
- 260993 string characters out of 6139872
- 371486 words of memory out of 5000000
+ 17441 strings out of 493304
+ 261005 string characters out of 6139872
+ 372486 words of memory out of 5000000
  20303 multiletter control sequences out of 15000+600000
  92663 words of font info for 159 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 60i,12n,94p,847b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,847b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.14} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1024,10 +1028,10 @@ share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}</usr/share/
 texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb>
-Output written on sample-sigchi-a.pdf (3 pages, 158473 bytes).
+Output written on sample-sigchi-a.pdf (5 pages, 159731 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  35409 words of extra memory for PDF output out of 35830 (max. 10000000)
 
