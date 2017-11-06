@@ -30,7 +30,7 @@
 %\acmBadgeR[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
 
 \begin{document}
-\title{Identifying the challenges towards a distributed nano data center infrastructure}
+\title{CTNDCI: Identifying the Challenges Towards a distributed Nano Data Center Infrastructure}
 
 \author{Katrin Kolb}
 \affiliation{%
@@ -73,12 +73,14 @@
  \country{Germany}}
 \email{d.irmscher@campus.lmu.de}
 
+\author{Document Identifier: GI 201711}
 % The default list of authors is too long for headers.
 \renewcommand{\shortauthors}{Katrin Kolb et al.}
 
-  
-\begin{abstract} % Andreas
-In this paper we identify the challenges currently preventing nano data centers from becoming the dominant form of content provision on the internet. With the global increase in IP traffic the question of how to provide and deliver data is becoming increasingly important. Monolithic data centers, as they are used today, pose several problems, such as high energy consumption and lack of scalability. An alternative solution mitigating the problems of monolithic data centers has been proposed in the form of a distributed nano data center infrastructure. Research has shown this to be a superior solution. However, no widespread solution based on a nano data center infrastructure has been implemented as of yet. By identifying the main challenges nano data centers are facing steps can be taken to overcome these challenges in a more focused way, leading to a more economic data distribution. 
+\begin{abstract}  % Andreas
+
+In this paper we identify the challenges currently preventing nano data centers from becoming the dominant form of content provision on the internet. With the global increase in IP traffic the question of how to provide and deliver data is becoming increasingly important. Monolithic data centers, as they are used today, pose several problems, such as high energy consumption and lack of scalability. An alternative solution mitigating the problems of monolithic data centers has been proposed in the form of a distributed nano data center infrastructure. Research has shown this to be a superior solution. However, no widespread solution based on a nano data center infrastructure has been implemented as of yet. By identifying the main challenges nano data centers are facing steps can be taken to overcome these challenges in a more focused way, leading to a more economic data distribution.\\
+\textit{Author: Andreas Scholz}\\
 \end{abstract}
 
 \keywords{Green IT; Nano data center; Energy consumption; Security; Availability; Scalability; Data distribution}
@@ -113,7 +115,8 @@ In this paper we identify the challenges currently preventing nano data centers 
 %\end{figure}
 
 \section{Problem Statement} % Andreas
-The global IP traffic is continually increasing. An analysis by Cisco shows, that global IP traffic will grow at a Compound Annual Growth Rate (CAGR) of 24 percent from 2016 to 2021 \cite{TheZetta68:online}, of which 71 percent will be delivered by Content Delivery Networks (CDNs) \cite{TheZetta68:online}. To deliver these amounts of data, CDNs make use of large monolithic data centers. These data centers are energy-inefficient, lack scalability and are difficult to deploy. \cite{DBLP:conf/conext/ValanciusLMDR09} A solution mitigating these problems has been proposed by Valancius et al. in 2009 \cite{DBLP:conf/conext/ValanciusLMDR09} in the form of a distributed nano data center infrastructure. However, to date monolithic data centers are still the prevalent solution. It is therefore necessary to identify the reasons why nano data centers are not being actively used yet to enable insights into which challenges have still to be overcome to ensure a transition from monolithic data centers to distributed nano data centers as soon as possible.
+The global IP traffic is continually increasing. An analysis by Cisco shows, that global IP traffic will grow at a Compound Annual Growth Rate (CAGR) of 24 percent from 2016 to 2021 \cite{TheZetta68:online}, of which 71 percent will be delivered by Content Delivery Networks (CDNs) \cite{TheZetta68:online}. To deliver these amounts of data, CDNs make use of large monolithic data centers. These data centers are energy-inefficient, lack scalability and are difficult to deploy. \cite{DBLP:conf/conext/ValanciusLMDR09} A solution mitigating these problems has been proposed by Valancius et al. in 2009 \cite{DBLP:conf/conext/ValanciusLMDR09} in the form of a distributed nano data center infrastructure. However, to date monolithic data centers are still the prevalent solution. It is therefore necessary to identify the reasons why nano data centers are not being actively used yet to enable insights into which challenges have still to be overcome to ensure a transition from monolithic data centers to distributed nano data centers as soon as possible.\\
+\textit{Author: Andreas Scholz}\\
 
 \section{Introduction} % Katrin
 Energy consumption and energy efficiency is a big topic in the modern world. Politicians try to make the production of energy more ecoconscious with renewable energy and people buy refrigerators with energy efficiency category A+++. \\
@@ -122,8 +125,8 @@ These data centers need a high amount of energy just for cooling the server syst
 Due to the fact that internet usage will continue to be an important part of society, economy and industry, there are several approaches to solve these problems and make the internet ``greener''. For example, Valancius et al. \cite{DBLP:conf/conext/ValanciusLMDR09} proposed a distributed computing platform and ECHOS \cite{Laoutaris:2008:EEC:1341431.1341442} is a nano data center and innovative solution to data hosting and delivery. The common feature of these solutions and new forms of data centers is that they are not used in practice. \\
 Nevertheless, these approaches are innovative and have several advantages. There is also the opportunity to reduce energy consumption with these solutions and to change the state of the art of data provisioning. So, it is necessary to identify the challenges towards a distributed nano data center and its infrastructure. \\
 Our goals are to identify these challenges as well as problems and requirements towards the development of nano data centers by studying and comparing the existing researches. With this knowledge it will be easier to focus on the problems and foster the development and introduction of these systems. \\
-This proposal is organized as follows. First, we review related research works. In section ``justification'', we support why our work is necessary. In section ``evaluation'', we describe our reference points for the evaluation of our outcomes. This is followed by a research plan with the milestones, which we want to achieve. Finally, we analyze the potential risks and reasons for a possible failure.
- \\
+This proposal is organized as follows. First, we review related research works. In section ``justification'', we support why our work is necessary. In section ``evaluation'', we describe our reference points for the evaluation of our outcomes. This is followed by a research plan with the milestones, which we want to achieve. Finally, we analyze the potential risks and reasons for a possible failure.\\
+\textit{Author: Katrin Kolb}\\
 
 
 \section{Related Work} % Melanie, Katharina
@@ -131,9 +134,11 @@ Some concepts in the field of nano data centers have been developed. For example
 In \cite{DBLP:journals/sigmetrics/JalaliAVHAT14} the energy consumption of traditional and nano data centers is compared. Here, nano data centers are described as a very efficient alternative to monolithical data centers.\\
 Another example that advocates the usage of nano data centers is ECHOS \cite{Laoutaris:2008:EEC:1341431.1341442}. Although not many words are spent on ECHOS' disadvantages, the paper implies that most of the disadvantages of nano data centers are inherited from its peer-to-peer architecture. Therefore, analyses of those weaknesses have to be taking into consideration, like in \cite{Dumitriu:2005:DoS}, \cite{Mhapasekar:2011:anonymity} and others.
 \\
+\textit{Authors: Melanie Hauser, Katharina Rupp}\\
 
 \section{Justification} % Melanie, Katharina
-Although a lot of research has been done and concepts have been developed, nano data centers have not yet actually been implemented in big extent. To realize nano data centers, it is important to know why it has not been done yet and which obstacles have to be resolved. That is why the paper will analyse the causes and obstacles.
+Although a lot of research has been done and concepts have been developed, nano data centers have not yet actually been implemented in big extent. To realize nano data centers, it is important to know why it has not been done yet and which obstacles have to be resolved. That is why the paper will analyse the causes and obstacles.\\
+\textit{Authors: Melanie Hauser, Katharina Rupp}\\
 
 \section{Evaluation} % Mengchu
 
@@ -161,7 +166,8 @@ we will try to find out the reason and propose some approaches to narrow the gap
 \end{enumerate}
 
 \paragraph{Software and resources for the evaluation:}
-According to the current evaluation plan, no software needs to be built. Paper survey will be essential for carrying out the evaluation.
+According to the current evaluation plan, no software needs to be built. Paper survey will be essential for carrying out the evaluation.\\
+\textit{Author: Mengchu Li} \\
 
 \section{Research Plan} % Diana
 \begin{table}[H]
@@ -213,10 +219,12 @@ According to the current evaluation plan, no software needs to be built. Paper s
 \end{table}
 %Methodik
 At the beginning of the project the question is asked, why there are no practical implementations despite some research projects and works on nano data centers.
-It is researched whether there is a comparable practical use of distributed nano data centers. It will be searched for corresponding research projects and works. Based on these initial research results, a hypothesis is put forward why there is still no practical use of such distributed systems. This is followed by a search for the reasons why it has not yet come to the use of such nano data centers. The search results will be evaluated at the end.
+It is researched whether there is a comparable practical use of distributed nano data centers. It will be searched for corresponding research projects and works. Based on these initial research results, a hypothesis is put forward why there is still no practical use of such distributed systems. This is followed by a search for the reasons why it has not yet come to the use of such nano data centers. The search results will be evaluated at the end.\\
+\textit{Author: Diana Irmscher} \\
 
 \section{Risk Analysis} % Diana
-There is the possibility that no corresponding literature can be found. In addition, there is a risk that the search lasts too long. Maybe the individual questions in the problem statement can not be answered specifically. The topic could be too comprehensive or too complex, therefore we could stay with the research on specific topics.
+There is the possibility that no corresponding literature can be found. In addition, there is a risk that the search lasts too long. Maybe the individual questions in the problem statement can not be answered specifically. The topic could be too comprehensive or too complex, therefore we could stay with the research on specific topics.\\
+\textit{Author: Diana Irmscher} \\
 
 % References
 \bibliography{sigchi-a}
