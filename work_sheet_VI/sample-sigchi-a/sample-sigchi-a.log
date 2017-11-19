@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  19 NOV 2017 19:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  19 NOV 2017 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,20 +1013,20 @@ ut line 146.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 146.
  [4.4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./sample-sigchi-a.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `sample-sigchi-a.out' has not changed.
 (rerunfilecheck)             Checksum: 1787295C773D24884D13AB23DBD93D4C;619.
  ) 
 Here is how much of TeX's memory you used:
- 17600 strings out of 493304
- 263990 string characters out of 6139872
- 376316 words of memory out of 5000000
- 20396 multiletter control sequences out of 15000+600000
- 107106 words of font info for 196 fonts, out of 8000000 for 9000
+ 17595 strings out of 493304
+ 263865 string characters out of 6139872
+ 376359 words of memory out of 5000000
+ 20397 multiletter control sequences out of 15000+600000
+ 106556 words of font info for 192 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  60i,11n,94p,919b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
@@ -1043,10 +1043,10 @@ share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}</usr/share/
 texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb>
-Output written on sample-sigchi-a.pdf (4 pages, 172037 bytes).
+Output written on sample-sigchi-a.pdf (4 pages, 172082 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  28 named destinations out of 1000 (max. 500000)
  35905 words of extra memory for PDF output out of 42996 (max. 10000000)
 
