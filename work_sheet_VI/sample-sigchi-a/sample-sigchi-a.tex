@@ -2,6 +2,8 @@
 \usepackage{booktabs} % For formal tables
 \usepackage{ccicons}  % For Creative Commons citation icons
 
+\usepackage[toc,page]{appendix}
+
 % Copyright
 %\setcopyright{none}
 \setcopyright{acmcopyright}
@@ -128,7 +130,7 @@ Aside from broadening our research scope we also drafted a questionnaire aimed a
 
 \section{Next Steps}
 From a research perspective our next tasks involves narrowing down the scope of the challenges we want to take a closer look at. At the moment our research question is too widely scoped and we will not be able to identify all challenges from all areas relevant to nano data centers (political, environmental, technical, economical, etc.). Our intention is to pick one or two areas and to identify some key challenges within these areas. This has then also to be reflected in our research question and the topic of our paper. It will be challenging to find the right balance between the amount of challenges and the detail in which to analyse them.\\
-Regarding the questionnaire we hope to interview someone from the LRZ to get some qualitative insights from a professional in the field. Ideally we would like to find some other experts, too. However we expect it will be difficult to achieve this within the tight time-limit, especially considering the holidays coming up.\\
+Regarding the questionnaire we hope to interview someone from the Leibniz Supercomputing Centre(LRZ) in Munich to get some qualitative insights from a professional in the field. Ideally we would like to find some other experts, too. However we expect it will be difficult to achieve this within the tight time-limit, especially considering the holidays coming up.\\
 One other idea we had was to develop a second questionnaire to interview ISPs with. As ISPs are the proposed providers and maintainers of a future nano data center architecture, their input would be valuable to explore whether nano data centers are already a topic they are concerned with. However, as with the original questionnaire we are unsure whether we will be able to make according appointments in time.\\
 \textit{Authors: Team effort}\\
 
@@ -137,7 +139,21 @@ As our original research plan was based solely on paper research, we deviated fr
 \textit{Authors: Team effort}\\
 
 % References
+\nocite{*}
 \bibliography{sigchi-a}
 \bibliographystyle{ACM-Reference-Format}
+
+\begin{appendices}
+\chapter{Questionnaire}
+\begin{enumerate}
+\item On the website of the LRZ it can be read that \textit{Green IT} is important \cite{LRZGreenIT}. What has been achieved or improved so far?
+\item In 2012, the LRZ was awarded the German Data Center Award for \textit{energy and resource efficient data centers} \cite{LRZGreenIT}. What makes the LRZ better on \textit{Green IT} than other data centers?
+\item What does the LRZ offer its customers? Are there any special \textit{Green IT} services available? Does the customer have an influence on more environmentally conscious use?
+\item Today's use of Internet services has changed massively \cite{TheZetta68:online}. How has the LRZ adapted accordingly?
+\item Why are the big data centers still so popular? What are the reasons? Are these political, economic or technical?
+\item Have you heard of an alternative solution to monolithic data centers? There are, among others, some research on nano data centers. Does the LRZ also work with these approaches? What is your opinion?
+\item How does the LRZ see the data centers of the future? What could be possible? Is it realistic that monolithic data centers could be replaced by special peer-to-peer networks?
+\end{enumerate}
+\end{appendices}
 
 \end{document}

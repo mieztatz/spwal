@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{6}
+\begin{thebibliography}{9}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -63,6 +63,36 @@
 \url{https://doi.org/10.1145/1071690.1064218}}
 
 
+\bibitem[\protect\citeauthoryear{Eum, Shoji, Murata, and Nishinaga}{Eum
+  et~al\mbox{.}}{2015}]%
+        {Eum:2015:DII:2803530.2803728}
+\bibfield{author}{\bibinfo{person}{S. Eum}, \bibinfo{person}{Y. Shoji},
+  \bibinfo{person}{M. Murata}, {and} \bibinfo{person}{N. Nishinaga}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Design and Implementation of ICN-enabled IEEE
+  802.11 Access Points As Nano Data Centers}.
+\newblock \bibinfo{journal}{{\em J. Netw. Comput. Appl.\/}}
+  \bibinfo{volume}{50}, \bibinfo{number}{C} (\bibinfo{date}{April}
+  \bibinfo{year}{2015}), \bibinfo{pages}{159--167}.
+\newblock
+\showISSN{1084-8045}
+\showDOI{%
+\url{https://doi.org/10.1016/j.jnca.2014.07.031}}
+
+
+\bibitem[\protect\citeauthoryear{He, Chaintreau, and Diot}{He
+  et~al\mbox{.}}{2009}]%
+        {DBLP:journals/cn/HeCD09}
+\bibfield{author}{\bibinfo{person}{Jiayue He}, \bibinfo{person}{Augustin
+  Chaintreau}, {and} \bibinfo{person}{Christophe Diot}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A performance evaluation of scalable live video
+  streaming with nano data centers}.
+\newblock \bibinfo{journal}{{\em Computer Networks\/}} \bibinfo{volume}{53},
+  \bibinfo{number}{2} (\bibinfo{year}{2009}), \bibinfo{pages}{153--167}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Jalali, Ayre, Vishwanath, Hinton, Alpcan, and
   Tucker}{Jalali et~al\mbox{.}}{2014}]%
         {DBLP:journals/sigmetrics/JalaliAVHAT14}
@@ -92,6 +122,19 @@
 \showISSN{0146-4833}
 \showDOI{%
 \url{https://doi.org/10.1145/1341431.1341442}}
+
+
+\bibitem[\protect\citeauthoryear{Leibniz-Rechenzentrum}{Leibniz-Rechenzentrum}{2014}]%
+        {LRZGreenIT}
+\bibfield{author}{\bibinfo{person}{Leibniz-Rechenzentrum}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{Green IT at Leibniz Supercomputing Centre}.
+\newblock   (\bibinfo{date}{02} \bibinfo{year}{2014}).
+\newblock
+\showURL{%
+\url{https://www.lrz.de/wir/green-it_en/}}
+\newblock
+\shownote{(Accessed on 11/19/2017).}
 
 
 \bibitem[\protect\citeauthoryear{Mhapasekar}{Mhapasekar}{2011}]%
