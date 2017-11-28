@@ -45,97 +45,58 @@
 % Document starts
 \begin{document}
 % Title portion
-\title{A Multifrequency MAC Specially Designed for Wireless Sensor
-  Network Applications} 
-\titlenote{We can add a note to the title}
+\title{CTNDCI: Identifying the Challenges Towards a distributed Nano Data Center Infrastructure} 
 
-\author{Gang Zhou}
-\authornote{This is the corresponding author}
-\orcid{1234-5678-9012-3456}
+\author{Melanie Hauser}
 \affiliation{%
-  \institution{College of William and Mary}
-  \streetaddress{104 Jamestown Rd}
-  \city{Williamsburg}
-  \state{VA}
-  \postcode{23185}
-  \country{USA}}
-\email{gang_zhou@wm.edu}
-\author{Valerie B\'eranger}
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{melanie.hauser@campus.lmu.de}
+
+\author{Diana Irmscher}
 \affiliation{%
-  \institution{Inria Paris-Rocquencourt}
-  \city{Rocquencourt}
-  \country{France}
-}
-\email{beranger@inria.fr}
-\author{Aparna Patel} 
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{d.irmscher@campus.lmu.de}
+
+\author{Katrin Kolb}
 \affiliation{%
- \institution{Rajiv Gandhi University}
- \streetaddress{Rono-Hills}
- \city{Doimukh} 
- \state{Arunachal Pradesh}
- \country{India}}
-\email{aprna_patel@rguhs.ac.in}
-\author{Huifen Chan}
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{katrin.kolb@campus.lmu.de}
+
+\author{Mengchu Li} 
 \affiliation{%
-  \institution{Tsinghua University}
-  \streetaddress{30 Shuangqing Rd}
-  \city{Haidian Qu} 
-  \state{Beijing Shi}
-  \country{China}
-}
-\email{chan0345@tsinghua.edu.cn}
-\author{Ting Yan}
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{mengchu.li@yahoo.com}
+
+\author{Katharina Rupp}
 \affiliation{%
-  \institution{Eaton Innovation Center}
-  \city{Prague}
-  \country{Czech Republic}}
-\email{yanting02@gmail.com}
-\author{Tian He}
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{katharina.rupp@web.de}
+
+\author{Andreas Scholz}
 \affiliation{%
-  \institution{University of Virginia}
-  \department{School of Engineering}
-  \city{Charlottesville}
-  \state{VA}
-  \postcode{22903}
-  \country{USA}
-}
-\affiliation{%
-  \institution{University of Minnesota}
-  \country{USA}}
-\email{tinghe@uva.edu}
-\author{Chengdu Huang}
-\author{John A. Stankovic}
-\author{Tarek F. Abdelzaher}
-\affiliation{%
-  \institution{University of Virginia}
-  \department{School of Engineering}
-  \city{Charlottesville}
-  \state{VA}
-  \postcode{22903}
-  \country{USA}
-}
+  \institution{LMU Munich}
+  \city{Munich} 
+  \country{Germany}}
+\email{andreas.scholz@campus.lmu.de}
+
 
 
 
 \begin{abstract}
-Multifrequency media access control has been well understood in
-general wireless ad hoc networks, while in wireless sensor networks,
-researchers still focus on single frequency solutions. In wireless
-sensor networks, each device is typically equipped with a single
-radio transceiver and applications adopt much smaller packet sizes
-compared to those in general wireless ad hoc networks. Hence, the
-multifrequency MAC protocols proposed for general wireless ad hoc
-networks are not suitable for wireless sensor network applications,
-which we further demonstrate through our simulation experiments. In
-this article, we propose MMSN, which takes advantage of
-multifrequency availability while, at the same time, takes into
-consideration the restrictions of wireless sensor networks. Through
-extensive experiments, MMSN exhibits the prominent ability to utilize
-parallel transmissions among neighboring nodes. When multiple physical
-frequencies are available, it also achieves increased energy
-efficiency, demonstrating the ability to work against radio
-interference and the tolerance to a wide range of measured time
-synchronization errors.
+In this paper we identify the challenges currently preventing nano data centers from becoming the dominant form of content provision on the internet. With the global increase in IP traffic the question of how to provide and deliver data is becoming increasingly important. Monolithic data centers, as they are used today, pose several problems, such as high energy consumption and lack of scalability. An alternative solution mitigating the problems of monolithic data centers has been proposed in the form of a distributed nano data center infrastructure. Research has shown this to be a superior solution. However, no widespread solution based on a nano data center infrastructure has been implemented as of yet. By identifying the main challenges nano data centers are facing steps can be taken to overcome these challenges in a more focused way, leading to a more economic data distribution.\\
+
+
+
 \end{abstract}
 
 
@@ -179,8 +140,7 @@ synchronization errors.
 %
 
 
-\keywords{Wireless sensor networks, media access control,
-multi-channel, radio interference, time synchronization}
+\keywords{Green IT; Nano data center; Energy consumption; Security; Availability; Scalability; Data distribution}
 
 % DO NOT use this command unless you want to change
 % the default behavior
@@ -199,8 +159,8 @@ multi-channel, radio interference, time synchronization}
 \maketitle
 
 % The default list of authors is too long for headers.
-\renewcommand{\shortauthors}{G. Zhou et al.}
+\renewcommand{\shortauthors}{Melanie Hauser et al.}
 
-\input{samplebody-journals}
+\input{body}
 
 \end{document}
