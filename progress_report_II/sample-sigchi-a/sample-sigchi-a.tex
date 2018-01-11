@@ -4,15 +4,9 @@
 
 \usepackage[toc,page]{appendix}
 
-% Copyright
-%\setcopyright{none}
 \setcopyright{acmcopyright}
-%\setcopyright{acmlicensed}
-%\setcopyright{rightsretained}
-%\setcopyright{usgov}
-%\setcopyright{usgovmixed}
-%\setcopyright{cagov}
-%\setcopyright{cagovmixed}
+
+\usepackage{nameref}
 
 
 % DOI
@@ -23,16 +17,9 @@
 
 %Conference
 \acmConference[SPWAL LMU]{Wissenschaftliches Arbeiten und Lehren, LMU}{Januar 2018}{Munich, Germany} 
-%\acmYear{1997}
-%\copyrightyear{2016}
-
-%\acmPrice{15.00}
-
-%\acmBadgeL[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
-%\acmBadgeR[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
 
 \begin{document}
-\title{CTNDCI: Identifying the Challenges Towards a distributed Nano Data Center Infrastructure}
+\title{CTNDCI: Identifying the Challenges Towards a distributed Nano Data Center Infrastructure \newline {\small Document Identifier: GI 201711}}
 
 \author{Melanie Hauser}
 \affiliation{ %
@@ -75,18 +62,13 @@
   \country{Germany}}
 \email{andreas.scholz@campus.lmu.de}
 
-
-
-\author{Document Identifier: GI 201711}
 % The default list of authors is too long for headers.
 \renewcommand{\shortauthors}{Katrin Kolb et al.}
 
 \begin{abstract}
-In this report, we present our achievements since the last report and describe our plan for concluding the project. We started grouping the issues by categories, conducted the interview with an expert on data centers from the Leibniz Supercomputing Centre and elaborated the issues themselves. We proceeded our work as planned. From now on, we finalize the ideas and issues. 
-
-
-
+\label{abstract}
 %Briefly describe the report's goals, methodologies, and contributions.
+In this report, we present our achievements since the last report and describe our plan for concluding the project. We started grouping the issues by categories, conducted the interview with an expert on data centers from the Leibniz Supercomputing Center and elaborated the issues themselves. We proceeded our work as planned. From now on, we finalize the ideas and issues. \\
 \textit{Authors: Team effort}\\
 \end{abstract}
 
@@ -99,50 +81,29 @@ In this report, we present our achievements since the last report and describe o
   \textbf{Title:}Identifying the Challenges Towards a distributed Nano Data Center Infrastructure
 
   \textbf{Progress Report II}
-
-%  dimensions and do not flow the margin text to the
-%  next page. 
-%  
-%  \textbf{Materials:} The margin box must not intrude
-%  or overflow into the header or the footer, or the gutter space
-%  between the margin paragraph and the main left column. 
-%  
-%  \textbf{Images \& Figures:} Practically anything
-%  can be put in the margin if it fits. Use the
-%  \texttt{{\textbackslash}marginparwidth} constant to set the
-%  width of the figure, table, minipage, or whatever you are trying
-%  to fit in this skinny space.
-%
-%  \caption{This is the optional caption}
-%  \label{bar:sidebar}
 \end{sidebar}
-
-%\begin{figure}
-%  \includegraphics[width=\marginparwidth]{sigchi-logo}
-%  \caption{Insert a caption below each figure.}
-%  \label{fig:sample}
-%\end{figure}
 
 % Das steht schon ungefähr so in Next Steps, deswegen hab ichs jetzt erst mal rausgelassen aus den Achievements (von Andreas im 19.11.2017 hinzugefügt):
 %  For more detailed investigations we began grouping the issues by categories. The goals of this are on the one hand being able to name broader fields that still need enhancement, on the other hand omitting some of the categories, e. g. politically motivated or legal obstacles. That way we can focus on problems that are closer related to our fields of study and give a less superficial view in our final report.
 
 \section{Achievements}
+\label{sec:achievements}
 % Describe the project's achievement during the reporting period.
-We stopped our research into new papers and started analysing our available information. Hence, we separated the papers up and every team member had to read and summarize one to two papers. We used this method to produce an expert for every paper and also to inform the other team members about the important facts. The resulting summaries are the basis for some chapters in the final paper. This working part was mainly done in independent work by each team member. Since not all papers explicitly provide information about nano data centers but also about related issues, we started grouping the found issues and also began to merge the information. There is very little research available for nano data centers so that combining and drawing conclusions should be well thought out.\\  
+We stopped our research into new papers and started analyzing our available information. Hence, we separated the papers up and every team member had to read and summarize one or two papers. We used this method to produce an expert for every paper and also to inform the other team members about the important facts. The resulting summaries are the basis for some chapters in the final paper. This working part was mainly done in independent work by each team member. Since not all papers explicitly provide information about nano data centers but also about related issues, we started grouping the found issues and also began to merge the information. There is very little research available for nano data centers so that combining and drawing conclusions should be well thought out.\\  
 According to our modified project plan from the last report we conducted the interview with an expert on data centers from the Leibniz Supercomputing Center. Our drafted questionnaire was used for this task, but in the course of the interview we had to adjust the questions to the situation and answers of the expert. The interview was recorded, so there is an audio file available. A transcript is in production.\\
-We also planned and organised our final paper. This included creating a table of contents and finding important chapters and topics for chapters. We also began to write the chapter about related work and similar issues.
-
+We also planned and organized our final paper. This included creating a table of contents and finding important chapters and topics for chapters. We also began to write the chapter about related work and similar issues.\\
 \textit{Authors: Team effort}\\
 
 \section{Next Steps}
+\label{sec:next_steps}
 % Outline the intended steps to be performed during the next reporting period.
-Out next next steps wil be focused in finalisation of our paper. This includes frist the discribing of the two chosen areas relevant to nano data centers.
+Our next next steps will be focused in finalization of our paper. This includes first the describing of the two chosen types of challenges relevant to nano data centers (see description in \nameref{sec:achievements}). In this section we will elaborate all challenges that we have founded out. In addition, we have to draw up the transcript of the interview. Furthermore, we have to write down our introduction according to the CARS model and completing our methodology.\\
 \textit{Authors: Team effort}\\
 
 \section{Deviation from plan}
-After the deviations presented in the last report, we proceeded our adjusted research plan. Solely, the interview plan changed somewhat, as we adapted the questionnaire to the course of the interview. Some questions didn't fit the course and we thus neglected them. Contrariwise, some questions emerged from the answers and were hence included. 
-
+\label{deviation_from_plan}
 % Should there be any discrepancies between the plan and the reality, describe and justify them. Please indicate any means to adjust the project to the plan, if necessary.
+After the deviations presented in the last report, we proceeded our adjusted research plan. Solely, the interview plan changed somewhat, as we adapted the questionnaire to the course of the interview. Some questions didn't fit the course and we thus neglected them. Contrariwise, some questions emerged from the answers and were hence included. \\
 \textit{Authors: Team effort}\\
 
 % References
