@@ -1,4 +1,4 @@
-\subsubsection{Energy Consumption Model for Nano Data Centers}
+\subsubsection{Energy Consumption Model for Nano Data Centers} \label{sec:model}
 
 While nano data centers are motivated by the energy consumption problem~\cite{DBLP:conf/conext/ValanciusLMDR09},
 current research reveals that the advantage of the nano data centers in energy efficiency relies on certain technical foundations.
@@ -42,7 +42,7 @@ the data has to traverse the access network twice~\cite{tradeoff}.
 We can now detail formula (\ref{abstract_model}) and adapt it to the energy consumption model proposed in~\cite{DBLP:journals/sigmetrics/JalaliAVHAT14} as the following:
 \begin{align}
 E_\text{req}&=E_{c}+E_\text{access},\\
-E_\text{trans}&=E_\text{edge}\cdot h_\text{edge}+E_\text{core}\cdot h_\text{core},\\
+E_\text{trans}&=E_\text{edge}\cdot h_\text{edge}+E_\text{core}\cdot h_\text{core},\\ \label{eq:trans}
 E_\text{serv}&=E_\text{access}+ E_{m},
 \end{align} 
 where $E_c$ represents the energy consumed in the end-user device of the client, 
@@ -50,12 +50,11 @@ $E_\text{access}, E_\text{edge}$, and $E_\text{core}$ represent the energy consu
 $h_\text{edge}$ and $h_\text{core}$ represent the number of hops in the edge and core networks,
 and $E_m$ represents the energy consumed in the end-user device of the manager.
 
-In the following, we will introduce four technical challenges that we regard as fundamental and argument our selections with respect to the proposed energy consumption model.
+In the following, we will introduce three technical challenges that we regard as fundamental and argument our selections with respect to the proposed energy consumption model.
 These challenges are:
 the activation of nano servers;
 the selection of the access network that the nano servers are attached to; 
-the location of nano servers;
-and the number of data replication strategy.
+and the trade-off between the distance among nano servers and the number of data replications.
 
 \subsubsection{Activation of Nano Servers}
 
@@ -66,7 +65,7 @@ Whenever a nano server is on,
 no matters it is active or idle,
 it consumes energy.
 \cite{DBLP:conf/conext/ValanciusLMDR09} proposed a thorough study on how the activation status of nano servers affects the total energy consumption.
-\cite{DBLP:conf/conext/ValanciusLMDR09} denoted the active times of a nano server as $t_\text{act}$ and the idle time of the nano server as $t_\text{idle}$,
+\cite{DBLP:conf/conext/ValanciusLMDR09} denoted the active time of a nano server as $t_\text{act}$ and the idle time of the nano server as $t_\text{idle}$,
 and introduced a coefficient $R$ that represents the ratio of the active time of nano servers to the whole duration when nano servers are on:
 \begin{equation}
 R=\frac{t_\text{act}}{t_\text{act}+t_\text{idle}}.\\
@@ -120,13 +119,126 @@ such as the NaDa model proposed in~\cite{DBLP:conf/conext/ValanciusLMDR09},
 turning off nano servers can lead to side-effects on the usage of other internet services of users,
 and thus the implementation of this solution requires further study.
 Another possible solution is to modify the applications for the nano data center,
-such as run multiple applications that have different peak hours,
+such as running multiple applications that have different peak hours,
 aiming to maximize the active time of the nano servers.
 So far we are unaware of any research tackling these problems,
 and thus we list the activation of nano servers as one of the four technical challenges towards nano data center development.
 
 \subsubsection{Access Network}
 
-\subsubsection{Location of Nano Servers}
+As discussed in Section~\ref{sec:model}, the access network connects nano servers to the edge network.
+According to the analysis proposed in~\cite{tradeoff} and~\cite{DBLP:journals/sigmetrics/JalaliAVHAT14},
+the power consumption of the access network needs to be counted twice for nano data centers,
+i.e. $E_\text{access}$ needs to be counted both in $E_\text{req}$ and $E_\text{serv}$.
+Thus, the energy efficiency of the access network has a large impact on the energy efficiency of the nano data center platform.
 
-\subsubsection{Data Replication}
+The energy consumption of the access network has been studied in~\cite{DBLP:journals/sigmetrics/JalaliAVHAT14} and~\cite{accessNetwork}.
+Both studies refer Passive Optical Networks (PON) as energy-efficient access networks,
+and indicate that wireless networks (WiMAX~\cite{accessNetwork}, 4G, WiFi~\cite{DBLP:journals/sigmetrics/JalaliAVHAT14} are relatively energy-inefficient.
+Figure~\ref{fig:accessNet} shows a comparison of energy consumption between nano data centers using different access networks and centralized data centers with different energy consumption values,
+where the curves for GPON and Ethernet almost overlap, and the curves for WiFi and centralized data center with 20$\mu J/$bit almost overlap.
+We can see that different access networks result in huge difference of energy consumption,
+and nano data centers attached to energy-inefficient access networks consume even more energy than centralized data centers.
+ 
+\begin{figure}[h]
+	\fontsize{12}{12} \selectfont
+	\centerline{\resizebox{5cm}{!}{\includegraphics{image/chart.eps}}}
+	\caption{A comparison of energy consumption between nano data centers using different access networks and centralized data centers with different energy consumption values~\cite{DBLP:conf/conext/ValanciusLMDR09}}.
+	\label{fig:accessNet}
+	\normalsize
+\end{figure}
+
+For nano data centers,
+since each nano servers is possessed by an end-user,
+it requires further study on the access network that these end-users may or may not use,
+before one can determine whether the implementation of nano data centers can save energy or not.
+
+Another concern regarding the access network of nano data centers is the trade-off between energy consumption and the access rate.  
+Figure~\ref{fig:accessNet2} shows their correlation from two aspects.
+As shown in the left figure,
+for a single user,
+the power consumption increases with the average access rate,
+and as shown in the right figure, 
+the energy per bit decreases with the average access rate.
+For the two relatively energy-efficient access networks -- Point-to-Point optical access network (PtP) and PON,
+their performance show different trends with the increase of the access rate.
+While PON is more energy efficient for a low access rate,
+it consumes more energy than PtP when the access rate surpasses 300Mb/s.
+Thus, it also requires further study on the selection of the access networks with respect to the expected access rate.
+
+\begin{figure}[h]
+	\fontsize{12}{12} \selectfont
+	\centerline{\resizebox{14cm}{!}{\includegraphics{image/chart4.eps}}}
+	\caption{Power consumption per user for different access networks and energy per bit of different access networks~\cite{accessNetwork}}.
+	\label{fig:accessNet2}
+	\normalsize
+\end{figure}
+
+\subsubsection{Trade-off: Distance and Replication}
+
+The energy consumption of the data transmission process ($E_\text{trans}$) in nano data center platforms is dependent on the number of hops in the edge ($h_\text{edge}$) and core networks ($h_\text{core}$),
+as mentioned in (\ref{eq:trans}) in Section~\ref{sec:model}.
+\cite{DBLP:journals/sigmetrics/JalaliAVHAT14} estimated the average number of hops in the edge and core networks to be $3$ and $5$,
+using \textit{traceroute} from end-user devices to WordPress~\cite{wordpress} servers.
+The number of these hops can be understood as the distance between the end-user requesting data and the end-user hosting the corresponding data.
+Regarding the location of the communicating end-users,
+the number of hops shows large variation:
+for non-local users,
+\cite{DBLP:journals/sigmetrics/JalaliAVHAT14} measured $h_\text{edge}$ and $h_ \text{core}$ as $3$ and $8$;
+and for local users,
+$h_\text{edge}$ and $h_\text{core}$ are measured as $1$ and $2$.
+Figure~\ref{fig:location} shows the energy consumption of the the core and edge networks for the data transmission between local and non-local users,
+and compares them with the centralized data center.
+We can see that if an end-user accesses data from a non-local nano server, 
+the energy consumption of the edge and core networks can be even higher than accessing data from a centralized data center.
+
+\begin{figure}[h]
+	\fontsize{12}{12} \selectfont
+	\centerline{\resizebox{5cm}{!}{\input{image/chart5.eps_tex}}}
+	\caption{Energy consumption of core and edge networks for accesing data from different locations~\cite{DBLP:journals/sigmetrics/JalaliAVHAT14}}
+	\label{fig:location}
+	\normalsize
+\end{figure}
+
+A natural solution to reduce or balance the data transmission distance is to add data replicas~\cite{tradeoff}~\cite{iptv}.
+However,
+while data replication can be beneficial to the energy-efficiency in the transmission process,
+it also leads to the increase of the energy consumption for storing the data.
+\cite{iptv} indicated that the data replication strategy should depend on the popularity of the data.
+Figure~\ref{fig:popularity} shows the contribution of storage, servers and transmission to the total power consumption of IPTV services,
+where 20 replicas of a 2-hour SD movie are stored in 20 different data centers~\cite{iptv}. 
+We can see that the storage cost dominates the total energy consumption when the movie is rarely downloaded,
+and the transmission cost becomes significant as the data popularity increases. 
+Regarding this,
+for movies that are frequently downloaded,
+it is more energy-efficient to keep a relatively large number of replicas to reduce the energy consumption in the transmission process;
+and for movies that are rarely downloaded,
+it is more energy-efficient to keep a relatively small number of replicas to reduce the energy consumption in the storage.
+
+\begin{figure}[h]
+	\fontsize{12}{12} \selectfont
+	\centerline{\resizebox{5cm}{!}{\includegraphics{image/chart7.png}}}
+	\caption{The contribution of storage, servers and transmission to the total power consumption of IPTV services with respect to data popularity~\cite{iptv}}.
+	\label{fig:popularity}
+	\normalsize
+\end{figure}
+
+\cite{tradeoff} compared the energy consumption for downloading movies from nano data centers and from centralized data centers with respect to the access frequency,
+under the scenario that a centralized data centers keeps two replicas of each data,
+and nano data centers keeps 2, or 10, or 100 replicas of each data.
+The result indicated that a centralized data center is more efficient than nano data centers for unpopular data.
+
+Thus,
+we regard finding the balance between the transmission distance and the number of replicas as one the technical challenges towards the development of nano data centers.
+From our view,
+a possible solution is to detect the popularity of each individual data dynamically,
+and adjusting the number of replicas for each data accordingly.
+However,
+further study on the negotiation and configuration mechanism is required.
+
+
+
+
+
+
+
