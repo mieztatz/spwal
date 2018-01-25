@@ -3,10 +3,10 @@ Due to its distributed nature a nano data center infrastructure will face additi
 \subsubsection{Political challenges}
 Once the decision to transition to nano data centers has been made the question arises of who will be responsible for that infrastructure. Considering that nano data centers would likely be integrated into today's modems, with which each household connects to their internet service provider (ISP), the ISP would be an obvious choice. The ISP already has knowledge of their network and is also already distributing modems. However, this raises other challenges:\\
 
-How to distribute data between ISPs?\\
+\textit{How to distribute data between ISPs?}\\
 Most internet users only have one ISP they use to connect to the internet. As not every ISP can be expected to store all of the worldwide information that is currently stored in monolithic data centers, a solution has to be found to access data which is not currently provided by the ISP a person is connected to. This might include international partnerships which further increase the challenge to introduce political policies for such cooperations.\\
 
-How to ensure net neutrality?\\
+\textit{How to ensure net neutrality?}\\
 If ISPs are not only responsible for providing bandwidth but also for providing data, a conflict of interest might arise as to which data to provide with which priority. Especially when considering cooperations between different ISPs as mentioned above, an ISP might want to prioritize data deliverance to its own customers before servicing those of other ISPs. To ensure net neutrality, policies have to be introduced to ensure the same quality of service for each customer across different ISPs.\\
 
 %Money?\\
@@ -17,10 +17,15 @@ If these challenges prove too difficult to overcome, ISPs might not be the best 
 \subsubsection{Legal challenges}
 Legal regulations will pose challenges on the way to a distributed nano data center infrastructure. Some of these regulations are already in effect, others will yet have to be introduced to deal with the new state of the art. In this section we will introduce one challenge each as an example of what kind of legal challenges can be expected. As before, we acknowledge that there will be many other challenges to be overcome.\\
 
-General Data Protection Regulation (GDPR) of the EU.\\
-On May 25th, 2018 the GDPR EU regulation will come into affect which states, that any individual has the right to request information about data, which can personally identify them. This includes information about where this data is stored, whether it will be transferred to other entities, how long it will be stored, for which purpose it is stored and many others. It also provides an individual with the right to request access, rectification and erasure of this data as well as restricting further processing of that data \cite{gdpr}.\\
+\textit{General Data Protection Regulation (GDPR) of the EU.}
+\begin{displayquote}
+Wenn ich [...] personenbezogene Daten auf [...] verteilten Systemen speichern will, dann könnte ab 25. Mai nächsten Jahres einer, der jetzt in den Daten gespeichert ist, verlangen: "Wo sind denn meine Daten überall?". [...] Also da sehe ich schon noch Sachen wo ich sage, mit so verteilten Systemen und Rechenzentren wird das relativ schwierig, [...] was nicht heißt, dass das nicht funktioniert, was aber vielleicht heißt, dass der Aufwand das zu realisieren mehr ist als [...] wenn man es bei uns macht \cite{kranzlm}.
+\end{displayquote}
 
-[ab hier erst mal nur Notitzen]
-"Wenn ich jetzt da personenbezogene Daten auf so verteilten Systemen [...] speichern will, dann könnte ab 25. Mai nächsten Jahres einer der jetzt in den Daten gespeichert ist verlangen, "wo sind denn meine Daten überall?", ja? Also da seh ich schon noch Sachen wo ich sag, mit so verteilten Systemen und Rechenzentren wird des relativ schwierig, ja, was nicht heißt, dass das nicht funktioniert, was aber vielleicht heißt, dass der Aufwand das zu realisieren mehr ist als wie wenn mans bei uns macht \cite{kranzlm}."
+% Real quote:
+% Wenn ich jetzt da personenbezogene Daten auf so verteilten Systemen speichern will, dann könnte ab 25. Mai nächsten Jahres einer, der jetzt in den Daten gespeichert ist, verlangen, "wo sind denn meine Daten überall?", ja? Also da seh ich schon noch Sachen wo ich sag, mit so verteilten Systemen und Rechenzentren wird des relativ schwierig, ja, was nicht heißt, dass das nicht funktioniert, was aber vielleicht heißt, dass der Aufwand das zu realisieren mehr ist als wie wenn mans bei uns macht \cite{kranzlm}.
 
-- Who is liable for illegal data stored on a persons nano data center?
+On May 25th, 2018 the GDPR EU regulation will come into affect. It states, that any individual has the right to request information about data, which can personally identify them. This includes information about where this data is stored, whether it will be transferred to other entities, how long it will be stored, for which purpose it is stored and others. It also provides an individual with the right to request access, rectification and erasure of this data as well as restricting further processing of that data \cite{gdpr3}. Having a monolithic data center in one physical location makes these requirements easier to fulfil. With a distributed infrastructure however, keeping track of where, what kind of data (personal or not) is stored, (including all its backups) is challenging. Additionally, when considering non EU cooperations of nano data center infrastructures, the organisation handling the personal identifiable data has to ensure that the same regulations as mentioned above are in effect in the country the data will then be stored in \cite{gdpr5}.\\
+
+\textit{Liability for data stored on a nano data center?}\\
+Considering that every household that is part of a nano data center infrastructure would physically store some part of the data of the whole system, the question of liability for that part of the data arises. If illegal data is stored on ones own nano data center, can one be held accountable? This problem relates to the "Störerhaftung" (Breach of Duty of Care) regulation in Germany, which, until recently, made operators of open wireless networks accountable for illegal activities performed by users of that network \cite{bgb}. As there is no standardised European or worldwide regulation yet, this will pose a challenge for operators of future nano data center infrastructures.
